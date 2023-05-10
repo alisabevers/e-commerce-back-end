@@ -56,6 +56,8 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// Localhost:3001/api/categories/:id
+// Deletes a particular category
 router.delete('/:id', async (req, res) => {
   try {
     const deletedCategory = await Category.destroy({
