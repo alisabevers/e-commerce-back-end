@@ -27,6 +27,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+
 // Localhost:3001/api/categories
 // Creates a new category
 router.post('/', async (req, res) => {
